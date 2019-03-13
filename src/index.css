@@ -1,0 +1,99 @@
+h1 {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-family: sans-serif;
+	text-align: center;
+	background-repeat: no-repeat;
+	background: -webkit-linear-gradient(
+		to left,
+		#f64f59,
+		#c471ed,
+		#12c2e9
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.font-1 {
+	font-family: "Montserrat";
+	font-size: 2rem;
+}
+.App {
+	width: 100%;
+}
+.point {
+	font-size: 6em;
+}
+.player-name {
+	font-size: 3em;
+}
+
+.bar {
+	width: 200px;
+	transition: 6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+	height: 50px;
+}
+.wrap {
+	width: 800px;
+}
+.shade {
+	position: absolute;
+	height: 120vh;
+	background: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+/* font */
+.handwrite {
+	font-family: "Sniglet", cursive;
+	font-weight: bold;
+}
+
+.shake-effect {
+	/* Start the shake animation and make the animation last for 0.5 seconds */
+	animation: shake 0.5s;
+
+	/* When the animation is finished, start again */
+	animation-iteration-count: 4;
+}
+@keyframes shake {
+	0% {
+		transform: translate(1px, 1px) rotate(0deg);
+	}
+	10% {
+		transform: translate(-1px, -2px) rotate(-1deg);
+	}
+	20% {
+		transform: translate(-3px, 0px) rotate(1deg);
+	}
+	30% {
+		transform: translate(3px, 2px) rotate(0deg);
+	}
+	40% {
+		transform: translate(1px, -1px) rotate(1deg);
+	}
+	50% {
+		transform: translate(-1px, 2px) rotate(-1deg);
+	}
+	60% {
+		transform: translate(-3px, 1px) rotate(0deg);
+	}
+	70% {
+		transform: translate(3px, 1px) rotate(-1deg);
+	}
+	80% {
+		transform: translate(-1px, -1px) rotate(1deg);
+	}
+	90% {
+		transform: translate(1px, 2px) rotate(0deg);
+	}
+	100% {
+		transform: translate(1px, -2px) rotate(-1deg);
+	}
+}
