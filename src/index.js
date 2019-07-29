@@ -16,7 +16,7 @@ function App() {
 			<footer className=" pv4 ph3 tc">
 				<a
 					class="link near-black hover-silver dib h2 w2 mr3"
-					href="https://github.com/mrmrs"
+					href="https://github.com/759445684"
 					title="GitHub"
 				>
 					<svg
@@ -33,7 +33,7 @@ function App() {
 				</a>
 				<a
 					class="link hover-silver near-black dib mh3 tc"
-					href="http://codepen.io"
+					href="https://codesandbox.io/u/759445684"
 					title="CodePen"
 				>
 					<svg
