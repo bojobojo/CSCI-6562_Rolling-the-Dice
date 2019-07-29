@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/CSCI-6562_Rolling-the-Dice/precache-manifest.f237dc3482b79cec6d32bdc34cd518c3.js"
+  "/CSCI-6562_Rolling-the-Dice/precache-manifest.2663a43090f691cea64bca1099c44fc8.js"
 );
 
 workbox.clientsClaim();
