@@ -1,4 +1,4 @@
-# CSCI-6562_Rolling-the-Dice
+# Dice-Game-React
 
 This is a 3D Dice rolling battle Game build with React.
 
